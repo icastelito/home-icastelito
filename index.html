@@ -3,20 +3,368 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Bem-vindo ao Meu Mundo - Icaro Castelo</title>
+		<meta
+			name="description"
+			content="iCastelo Dev - Blog sobre programação, desenvolvimento web, dicas de tecnologia e tutoriais para desenvolvedores. Aprenda JavaScript, Python, React e muito mais."
+		/>
+		<meta
+			name="keywords"
+			content="programação, desenvolvimento web, JavaScript, Python, React, tutoriais, tecnologia, dicas de programação"
+		/>
+		<meta name="author" content="Icaro Castelo" />
+		<meta name="robots" content="index, follow" />
+		<link rel="canonical" href="https://icastelodev.com" />
+		<title>iCastelo Dev - Blog de Programação e Tecnologia</title>
 		<link rel="stylesheet" href="styles.css" />
 		<script
 			async
 			src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1396718158024453"
 			crossorigin="anonymous"
 		></script>
+		<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 	</head>
 	<body>
-		<div class="container">
-			<div class="welcome-box">
-				<h1>Maria Luiza, i LOVE you 💜</h1>
-				<p>By: Icaro Castelo</p>
+		<!-- Header -->
+		<header class="header">
+			<div class="header-container">
+				<a href="index.html" class="logo">
+					<span class="logo-icon">&#60;/&#62;</span>
+					<span class="logo-text">iCastelo<span class="highlight">Dev</span></span>
+				</a>
+				<nav class="nav">
+					<ul class="nav-list">
+						<li><a href="index.html" class="nav-link active">Início</a></li>
+						<li><a href="sobre.html" class="nav-link">Sobre</a></li>
+						<li><a href="contato.html" class="nav-link">Contato</a></li>
+						<li><a href="privacidade.html" class="nav-link">Privacidade</a></li>
+						<li><a href="termos.html" class="nav-link">Termos</a></li>
+					</ul>
+					<button class="menu-toggle" aria-label="Menu"><ion-icon name="menu-outline"></ion-icon></button>
+				</nav>
 			</div>
-		</div>
+		</header>
+
+		<!-- Main Content -->
+		<main class="main-content">
+			<!-- Hero Section -->
+			<section class="hero">
+				<div class="hero-content">
+					<h1>Bem-vindo ao iCastelo Dev</h1>
+					<p>
+						Seu portal de aprendizado em programação e tecnologia. Dicas, tutoriais e conteúdo de qualidade
+						para desenvolvedores.
+					</p>
+				</div>
+			</section>
+
+			<div class="content-wrapper">
+				<!-- Articles Section -->
+				<section class="articles">
+					<h2 class="section-title"><ion-icon name="library-outline"></ion-icon> Artigos Recentes</h2>
+
+					<article class="article-card">
+						<div class="article-content">
+							<span class="article-category">JavaScript</span>
+							<h3>10 Dicas Essenciais de JavaScript para Iniciantes</h3>
+							<p>
+								Aprenda as melhores práticas de JavaScript que todo desenvolvedor iniciante precisa
+								conhecer. Desde variáveis até funções assíncronas, este guia completo vai acelerar seu
+								aprendizado.
+							</p>
+							<p>
+								JavaScript é uma das linguagens de programação mais populares do mundo. Com ela, você
+								pode criar sites interativos, aplicações web, servidores e até aplicativos móveis. Neste
+								artigo, vamos explorar conceitos fundamentais como declaração de variáveis com let e
+								const, arrow functions, template literals, destructuring, spread operator, e muito mais.
+								Cada dica vem acompanhada de exemplos práticos que você pode aplicar imediatamente em
+								seus projetos.
+							</p>
+							<div class="article-meta">
+								<span><ion-icon name="calendar-outline"></ion-icon> 27 de Novembro, 2025</span>
+								<span><ion-icon name="time-outline"></ion-icon> 8 min de leitura</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="article-card">
+						<div class="article-content">
+							<span class="article-category">Carreira</span>
+							<h3>Como Começar na Carreira de Desenvolvedor em 2025</h3>
+							<p>
+								Um guia completo para quem deseja iniciar na área de desenvolvimento de software.
+								Descubra por onde começar, quais tecnologias aprender e como conseguir seu primeiro
+								emprego.
+							</p>
+							<p>
+								O mercado de tecnologia está em constante crescimento, e a demanda por desenvolvedores
+								qualificados nunca foi tão alta. Se você está pensando em fazer a transição de carreira
+								ou está começando do zero, este artigo vai te mostrar o caminho. Vamos discutir as
+								principais áreas de atuação (front-end, back-end, full-stack, mobile), as linguagens
+								mais demandadas, a importância de um portfólio no GitHub, e estratégias para se destacar
+								em processos seletivos.
+							</p>
+							<div class="article-meta">
+								<span><ion-icon name="calendar-outline"></ion-icon> 26 de Novembro, 2025</span>
+								<span><ion-icon name="time-outline"></ion-icon> 12 min de leitura</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="article-card">
+						<div class="article-content">
+							<span class="article-category">Python</span>
+							<h3>Python para Automação: Simplifique seu Dia a Dia</h3>
+							<p>
+								Descubra como usar Python para automatizar tarefas repetitivas e aumentar sua
+								produtividade. Scripts práticos que você pode usar hoje mesmo.
+							</p>
+							<p>
+								Python é conhecida por sua simplicidade e versatilidade, sendo uma escolha excelente
+								para automação. Neste tutorial, vamos criar scripts para organizar arquivos
+								automaticamente, enviar e-mails programados, fazer web scraping para coletar dados,
+								automatizar planilhas Excel, e muito mais. Você vai aprender a usar bibliotecas como os,
+								shutil, smtplib, requests, BeautifulSoup e openpyxl para criar soluções que economizam
+								horas do seu tempo.
+							</p>
+							<div class="article-meta">
+								<span><ion-icon name="calendar-outline"></ion-icon> 25 de Novembro, 2025</span>
+								<span><ion-icon name="time-outline"></ion-icon> 10 min de leitura</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="article-card">
+						<div class="article-content">
+							<span class="article-category">React</span>
+							<h3>Hooks do React: Guia Completo para Desenvolvedores</h3>
+							<p>
+								Entenda useState, useEffect, useContext e outros hooks essenciais do React. Exemplos
+								práticos e casos de uso reais para dominar os hooks.
+							</p>
+							<p>
+								Os React Hooks revolucionaram a forma como escrevemos componentes em React. Com eles,
+								podemos usar estado e outras funcionalidades sem escrever classes. Este guia aborda
+								desde os hooks básicos até os mais avançados: useState para gerenciamento de estado
+								local, useEffect para efeitos colaterais, useContext para compartilhar dados
+								globalmente, useReducer para estados complexos, useMemo e useCallback para otimização de
+								performance, e useRef para acessar elementos DOM diretamente.
+							</p>
+							<div class="article-meta">
+								<span><ion-icon name="calendar-outline"></ion-icon> 24 de Novembro, 2025</span>
+								<span><ion-icon name="time-outline"></ion-icon> 15 min de leitura</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="article-card">
+						<div class="article-content">
+							<span class="article-category">Git</span>
+							<h3>Git e GitHub: Do Zero ao Profissional</h3>
+							<p>
+								Domine o controle de versão com Git e aprenda a usar o GitHub como um profissional.
+								Branches, merges, pull requests e muito mais.
+							</p>
+							<p>
+								Controle de versão é uma habilidade fundamental para qualquer desenvolvedor. Git permite
+								que você acompanhe mudanças no código, colabore com outros desenvolvedores e mantenha um
+								histórico completo do projeto. Neste artigo completo, você vai aprender desde os
+								comandos básicos (init, add, commit, push, pull) até conceitos avançados como branching
+								strategies, resolução de conflitos, rebase vs merge, cherry-pick, e como configurar um
+								fluxo de trabalho eficiente com GitHub Actions.
+							</p>
+							<div class="article-meta">
+								<span><ion-icon name="calendar-outline"></ion-icon> 23 de Novembro, 2025</span>
+								<span><ion-icon name="time-outline"></ion-icon> 11 min de leitura</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="article-card">
+						<div class="article-content">
+							<span class="article-category">CSS</span>
+							<h3>CSS Moderno: Flexbox e Grid Layout Explicados</h3>
+							<p>
+								Aprenda a criar layouts responsivos e modernos usando Flexbox e CSS Grid. Chega de
+								dificuldades com posicionamento de elementos!
+							</p>
+							<p>
+								Flexbox e CSS Grid são as ferramentas mais poderosas para criação de layouts na web
+								moderna. Flexbox é ideal para layouts unidimensionais (linha ou coluna), enquanto Grid é
+								perfeito para layouts bidimensionais complexos. Este tutorial prático mostra como usar
+								propriedades como display: flex, justify-content, align-items, flex-wrap, display: grid,
+								grid-template-columns, grid-gap, e como combinar ambas as técnicas para criar qualquer
+								layout que você imaginar, de forma responsiva e sem hacks.
+							</p>
+							<div class="article-meta">
+								<span><ion-icon name="calendar-outline"></ion-icon> 22 de Novembro, 2025</span>
+								<span><ion-icon name="time-outline"></ion-icon> 9 min de leitura</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="article-card">
+						<div class="article-content">
+							<span class="article-category">Node.js</span>
+							<h3>Criando APIs REST com Node.js e Express</h3>
+							<p>
+								Tutorial passo a passo para criar sua primeira API REST profissional. Aprenda a
+								estruturar projetos, criar rotas e conectar ao banco de dados.
+							</p>
+							<p>
+								Node.js permite usar JavaScript no servidor, e Express é o framework mais popular para
+								criar APIs. Neste tutorial completo, vamos construir uma API REST do zero: configuração
+								do projeto com npm, estrutura de pastas profissional, criação de rotas (GET, POST, PUT,
+								DELETE), middlewares para validação e autenticação, conexão com MongoDB usando Mongoose,
+								tratamento de erros, e boas práticas de segurança. Ao final, você terá uma API pronta
+								para produção.
+							</p>
+							<div class="article-meta">
+								<span><ion-icon name="calendar-outline"></ion-icon> 21 de Novembro, 2025</span>
+								<span><ion-icon name="time-outline"></ion-icon> 14 min de leitura</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="article-card">
+						<div class="article-content">
+							<span class="article-category">Produtividade</span>
+							<h3>VS Code: Extensões e Atalhos que Todo Dev Precisa Conhecer</h3>
+							<p>
+								Maximize sua produtividade no Visual Studio Code. As melhores extensões, configurações e
+								atalhos de teclado para programar mais rápido.
+							</p>
+							<p>
+								O Visual Studio Code é o editor de código mais popular entre desenvolvedores, e conhecer
+								suas funcionalidades pode multiplicar sua produtividade. Neste artigo, apresentamos as
+								extensões essenciais: Prettier, ESLint, GitLens, Live Server, Thunder Client, e muitas
+								outras. Também listamos os atalhos mais úteis para navegação, edição múltipla,
+								refatoração, e integração com Git. Além disso, compartilhamos configurações do
+								settings.json que vão transformar sua experiência de desenvolvimento.
+							</p>
+							<div class="article-meta">
+								<span><ion-icon name="calendar-outline"></ion-icon> 20 de Novembro, 2025</span>
+								<span><ion-icon name="time-outline"></ion-icon> 7 min de leitura</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="article-card">
+						<div class="article-content">
+							<span class="article-category">TypeScript</span>
+							<h3>Por que Migrar de JavaScript para TypeScript em 2025</h3>
+							<p>
+								Entenda as vantagens do TypeScript e como ele pode melhorar a qualidade do seu código.
+								Tipagem estática, autocompletar e menos bugs.
+							</p>
+							<p>
+								TypeScript é um superset de JavaScript que adiciona tipagem estática opcional. Isso
+								significa que você pode detectar erros antes mesmo de executar o código. Este artigo
+								explica os benefícios da tipagem: autocompletar mais inteligente, documentação embutida
+								no código, refatoração segura, e menos bugs em produção. Também mostramos como
+								configurar um projeto TypeScript, os tipos básicos e avançados, interfaces, generics, e
+								como migrar gradualmente um projeto JavaScript existente.
+							</p>
+							<div class="article-meta">
+								<span><ion-icon name="calendar-outline"></ion-icon> 19 de Novembro, 2025</span>
+								<span><ion-icon name="time-outline"></ion-icon> 10 min de leitura</span>
+							</div>
+						</div>
+					</article>
+
+					<article class="article-card">
+						<div class="article-content">
+							<span class="article-category">Banco de Dados</span>
+							<h3>SQL vs NoSQL: Quando Usar Cada Um</h3>
+							<p>
+								Entenda as diferenças entre bancos de dados relacionais e não-relacionais. Aprenda a
+								escolher a melhor opção para cada projeto.
+							</p>
+							<p>
+								A escolha do banco de dados é uma das decisões mais importantes em qualquer projeto.
+								Bancos SQL (MySQL, PostgreSQL, SQL Server) usam tabelas e são ideais para dados
+								estruturados e transações complexas. Bancos NoSQL (MongoDB, Redis, Cassandra) são
+								flexíveis e escalam horizontalmente. Este artigo compara performance, escalabilidade,
+								consistência, e casos de uso ideais para cada tipo. Também discutimos quando usar bancos
+								híbridos e como combinar diferentes tecnologias em uma arquitetura moderna.
+							</p>
+							<div class="article-meta">
+								<span><ion-icon name="calendar-outline"></ion-icon> 18 de Novembro, 2025</span>
+								<span><ion-icon name="time-outline"></ion-icon> 8 min de leitura</span>
+							</div>
+						</div>
+					</article>
+				</section>
+
+				<!-- Sidebar -->
+				<aside class="sidebar">
+					<div class="sidebar-widget">
+						<h3><ion-icon name="person-outline"></ion-icon> Sobre o Autor</h3>
+						<p>
+							Olá! Sou Icaro Castelo, desenvolvedor full-stack apaixonado por tecnologia e educação.
+							Compartilho conhecimento para ajudar outros devs a evoluírem na carreira.
+						</p>
+					</div>
+
+					<div class="sidebar-widget">
+						<h3><ion-icon name="pricetags-outline"></ion-icon> Categorias</h3>
+						<ul class="category-list">
+							<li><a href="#">JavaScript</a></li>
+							<li><a href="#">Python</a></li>
+							<li><a href="#">React</a></li>
+							<li><a href="#">Node.js</a></li>
+							<li><a href="#">CSS</a></li>
+							<li><a href="#">Git</a></li>
+							<li><a href="#">Carreira</a></li>
+							<li><a href="#">Produtividade</a></li>
+						</ul>
+					</div>
+
+					<div class="sidebar-widget">
+						<h3><ion-icon name="mail-outline"></ion-icon> Newsletter</h3>
+						<p>Receba dicas de programação toda semana no seu e-mail!</p>
+						<form class="newsletter-form">
+							<input type="email" placeholder="Seu melhor e-mail" required />
+							<button type="submit">Inscrever</button>
+						</form>
+					</div>
+				</aside>
+			</div>
+		</main>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="footer-content">
+				<div class="footer-section">
+					<h4>iCastelo Dev</h4>
+					<p>
+						Blog dedicado a compartilhar conhecimento sobre programação, desenvolvimento web e tecnologia.
+					</p>
+				</div>
+				<div class="footer-section">
+					<h4>Links Úteis</h4>
+					<ul>
+						<li><a href="sobre.html">Sobre Nós</a></li>
+						<li><a href="contato.html">Contato</a></li>
+						<li><a href="privacidade.html">Política de Privacidade</a></li>
+						<li><a href="termos.html">Termos de Uso</a></li>
+					</ul>
+				</div>
+				<div class="footer-section">
+					<h4>Categorias</h4>
+					<ul>
+						<li><a href="#">JavaScript</a></li>
+						<li><a href="#">Python</a></li>
+						<li><a href="#">React</a></li>
+						<li><a href="#">Node.js</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-bottom">
+				<p>&copy; 2025 iCastelo Dev. Todos os direitos reservados.</p>
+			</div>
+		</footer>
+
+		<script src="scritp.js"></script>
 	</body>
 </html>
